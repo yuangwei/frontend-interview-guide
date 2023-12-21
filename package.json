@@ -1,0 +1,37 @@
+{
+  "name": "frontend-code-challenge",
+  "version": "0.0.1",
+  "description": "Frontend function and code challenge",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "create": "node ./bin/create.mjs",
+    "publish": "sh ./bin/update.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuangwei/frontend-code-challenge.git"
+  },
+  "author": "Yuang Wei <hi@yuangwei.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuangwei/frontend-code-challenge/issues"
+  },
+  "homepage": "https://fechallenge.about-blank.io",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "turndown": "^7.1.2",
+    "turndown-plugin-gfm": "^1.0.2",
+    "typescript": "^4.9.3"
+  }
+}
