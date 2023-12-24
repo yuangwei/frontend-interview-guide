@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <h1 className='nx-font-bold'>Frontend Code Challenge</h1>,
+  logo: <h1 className='nx-font-bold'>Frontend Interview Guide</h1>,
   project: {
     link: 'https://github.com/yuangwei/frontend-code-challenge',
   },

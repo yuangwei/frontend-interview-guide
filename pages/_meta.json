@@ -1,5 +1,8 @@
 {
   "index": "Introduction",
-  "topics": "Topics",
-  "solutions": "Solutions"
+  "javascript": "Javascript",
+  "vanilla": "Vanilla frontend",
+  "typescript": "Typescript",
+  "react": "React",
+  "design": "Frontend Module Design"
 }
